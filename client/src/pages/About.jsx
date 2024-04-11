@@ -3,9 +3,9 @@ import React from "react";
 export default function About() {
   return (
     <div className="py-20 px-4 max-w-6xl mx-auto">
-      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About GWU Marketplace</h1>
+      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About GWU StudentExchange</h1>
       <p className='mb-4 text-slate-700'>
-        GWU MArketplace is first choice of place where users can browse through
+        GWU StudentExchange is first choice of place where users can browse through
         different listing items posted within the GWU neighborhoods. Our team of
         experienced service providers is dedicated to providing exceptional
         service and making buying and selling process as smooth as possible.

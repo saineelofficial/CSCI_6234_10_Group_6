@@ -56,7 +56,7 @@ export default function Home() {
           with GWU
         </h1>
         <div className="text-gray-400 text-xs sm:text-sm">
-          GWU Marketplace is the best place to shop member's products.
+          GWU StudentExchange is the best place to shop member's products.
           <br />
           We have a wide range of listings for you to choose from.
         </div>
@@ -130,7 +130,7 @@ export default function Home() {
           <div className="">
             <div className="my-3">
               <h2 className="text-2xl font-semibold text-slate-600">
-                Recent places for sale
+                Recent places/Furniture for sale
               </h2>
               <Link
                 className="text-sm text-blue-800 hover:underline"
