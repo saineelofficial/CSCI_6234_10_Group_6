@@ -31,7 +31,7 @@ export default function Header() {
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-slate-500">GWU</span>
             &nbsp;
-            <span className="text-slate-700">StudentEchange</span>
+            <span className="text-slate-700">StudentExchange</span>
           </h1>
         </Link>
         <form
