@@ -130,7 +130,7 @@ export default function Home() {
           <div className="">
             <div className="my-3">
               <h2 className="text-2xl font-semibold text-slate-600">
-                Recent places/Furniture for sale
+                Recent places/furniture for sale
               </h2>
               <Link
                 className="text-sm text-blue-800 hover:underline"
