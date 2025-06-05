@@ -19,11 +19,6 @@ A full-stack web application for buying and selling used items within the GW com
 - **Responsive Design**: Works seamlessly across desktop and mobile devices  
 
 
-
-## 🛠️ Tech Stack
-
-### Frontend
-
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -56,6 +51,21 @@ A full-stack web application for buying and selling used items within the GW com
 
 </div>
 
+# 📁 Project Structure
+```plaintext
+├── api/                 # Backend code
+│   ├── controllers/     # Request handlers
+│   ├── models/          # Database models
+│   ├── routes/          # API routes
+│   └── utils/           # Helper functions
+├── client/              # Frontend code
+│   ├── src/
+│   │   ├── components/  # React components
+│   │   ├── pages/       # Page components
+│   │   └── redux/       # State management
+│   └── public/          # Static files
+└── package.json         # Project dependencies
+```
 
 
 ---
@@ -85,3 +95,21 @@ Create a `.env` file in the root directory with:
 ```plaintext
 MONGO=your_mongodb_connection_string
 ```
+# 🔄 API Endpoints
+
+`/api/auth` – Authentication routes
+
+`/api/user` – User management
+
+`/api/listing` – Product listing operations
+
+
+# 🧪 Development
+To build for production:
+```bash
+npm run build
+```
+This will:
+<li>Install all dependencies</li>
+<li>Build the React frontend</li>
+<li>Prepare the application for deployment</li>
