@@ -76,7 +76,7 @@ A full-stack web application for buying and selling used items within the GW com
 
 ```bash
 git clone [repository-url]
-cd CSCI_6234_10_Group_6
+cd Student-Marketplace-Platform
 ```
 # Install Dependencies
 
